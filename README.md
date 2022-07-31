@@ -9,9 +9,9 @@ Redirect connections from different ports at one ipv4 address to unique random i
 ## Installation
 [Video tutorial](https://youtu.be/EKBJHSTmT4w), used as Centos setup
 
-1. `bash <(curl -s "https://raw.githubusercontent.com/PastaArroz/ipv6-ma/main/scripts/enable-ipv6.sh")`
+1. `bash <(curl -s "https://raw.githubusercontent.com/worldfoods/proxy/master/scripts/enable-ipv6.sh")`
 
-1. `bash <(curl -s "https://raw.githubusercontent.com/PastaArroz/ipv6-ma/main/scripts/saktie.sh")`
+1. `bash <(curl -s "https://raw.githubusercontent.com/worldfoods/proxy/master/scripts/saktie.sh")`
 
 1. After installation dowload the file `proxy.zip`
    * File structure: `IP4:PORT:LOGIN:PASS`
