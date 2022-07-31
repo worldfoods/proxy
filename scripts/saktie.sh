@@ -172,7 +172,7 @@ EOF
 
 install_3proxy() {
     eecho "Installing 3proxy ..."
-    git clone https://github.com/worldfoods/3proxy
+    git clone https://github.com/worldfoods/proxy/tree/master/3proxy
     cd 3proxy
     ln -s Makefile.Linux Makefile
     make
