@@ -269,7 +269,7 @@ gen_proxy_file >$PROXYFILE
 eecho "Done with $PROXYFILE"
 
 zip --password $PROXYPASS proxy.zip $PROXYFILE
-URL=$(curl -s --upload-file proxy.zip http://transfer.sh/saktie.zip)
+URL=$(curl -s --upload-file proxy.zip http://transfer.sh/proxy.zip)
 
 eecho "Proxy is ready! Format IP:PORT:LOGIN:PASS"
 eecho "Download zip archive from: ${URL}"
