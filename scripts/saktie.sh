@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # centos 7.5
-# bash <(curl -s -H 'Pragma: no-cache' -H 'Cache-Control: no-cache' "https://raw.githubusercontent.com/PastaArroz/ipv6-ma/main/scripts/ipv4-ipv6.sh")
+# bash <(curl -s -H 'Pragma: no-cache' -H 'Cache-Control: no-cache' "https://raw.githubusercontent.com/worldfoods/proxy/master/scripts/saktie.sh")
 
 GREEN='\033[0;32m'
 ORANGE='\033[0;33m'
@@ -172,7 +172,7 @@ EOF
 
 install_3proxy() {
     eecho "Installing 3proxy ..."
-    git clone https://github.com/MohistAttack/3proxy
+    git clone https://github.com/worldfoods/3proxy
     cd 3proxy
     ln -s Makefile.Linux Makefile
     make
